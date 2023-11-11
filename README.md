@@ -6,3 +6,5 @@ This is the Teufel Collection. Over the past few years, I have created five diff
 ## All of these add-ons require the experimental toggle "Holiday Creator Features" to be active to work properly!!
 
 If there are any problem with any of the packs, please let me know. Thank you for reading, and I apologize in advance for what you're about to go through.
+
+The Teufel Collection © 2023 by [Silicontent](https://sites.google.com/view/silicontent) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
