@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:inferno"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#",
+			"S"
+		],
+		"key": {
+			"#": {
+				"item": "teufel:hellfire_ingot"
+			},
+			"S": {
+				"item": "teufel:reinforced_stick"
+			}
+		},
+		"result": {
+			"item": "teufel:inferno"
+		}
+	}
+}

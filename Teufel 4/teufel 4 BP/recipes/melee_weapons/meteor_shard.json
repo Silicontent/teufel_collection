@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:meteor_shard"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#",
+			"S"
+		],
+		"key": {
+			"#": {
+				"item": "teufel:meteor_ingot"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "teufel:meteor_shard"
+		}
+	}
+}

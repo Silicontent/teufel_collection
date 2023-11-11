@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:flint_dagger"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"S"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:flint"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "teufel:flint_dagger"
+		}
+	}
+}

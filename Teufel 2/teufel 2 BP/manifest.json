@@ -1,0 +1,47 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "if pain had a cousin",
+		"name": "Teufel Zwei BP",
+		"uuid": "5429d952-e470-4f30-9d9b-89ca5a4b480d",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			18,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "if pain had a cousin",
+			"type": "data",
+			"uuid": "0f0f40e6-faa8-4f30-9889-2026e2967789",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d7f2af29-a0f8-4517-92ae-c8587c2740ba",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	}
+}

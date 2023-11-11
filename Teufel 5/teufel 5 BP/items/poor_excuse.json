@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "teufel:poor_excuse"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:glint": false,
+			"minecraft:icon": {
+				"texture": "poor_excuse"
+			},
+			"minecraft:display_name": {
+				"value": "A Stand-in Item Meant to Be Thrown Out"
+			}
+		}
+	}
+}

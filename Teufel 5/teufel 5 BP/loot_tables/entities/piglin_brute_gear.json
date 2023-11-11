@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "teufel:teufel:piglin_waraxe",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

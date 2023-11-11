@@ -1,0 +1,72 @@
+TEUFEL FÜNF - Credits
+
+created by Silicontent (https://youtube.com/c/Silicontent)
+concept and mechanic ideas by Silicontent and many other people
+based off of the vanilla add-on from Mojang Studios and Microsoft
+
+Minecraft is the property of Mojang Studios and Microsoft.
+
+NOTE: The name listed next to the asset could refer to either the person who created the texture or the person who created the original texture that I have edited to make the final texture seen in-game. Also, this credits list was created after the pack was created, and some sources may be inaccurate or misremembered. I apologize for any inconvenience.
+
+ASSET CREDITS ============================================================
+
+BLOCKS
+Shorter Fire and Soul Fire - VanillaTweaks
+Block of Hellfire - Mojang Studios
+Hellfire Ore - Mojang Studios, Silicontent
+Living Wood Log - Mojang Studios
+Living Wood Planks - Mojang Studios
+Block of Sculken - Mojang Studios
+Block of Terminite - Mojang Studios
+Block of Demonite - Mojang Studios
+
+WEAPONS
+Fistfull of Dirt - Silicontent, Mojang Studios
+Flint Dagger - SR400X on PlanetMinecraft
+Copper Dagger - VanillaTweaks, Mojang Studios
+Meteor Shard - Mojang Studios
+Frostbite - Skeletony on Hypixel Forums
+Obsidian Sword - Skeletony on Hypixel Forums
+Piglin Waraxe - Farkonog on Hypixel Forums
+Inferno - Re-Logic, Farkonog on Hypixel Forums, Silicontent
+Deity's Blade - Re-Logic, Silicontent
+Terminus - Re-Logic, Silicontent
+Ender Sword - Farkonog on Hypixel Forums, Silicontent
+Deepslash - EyelessTenshi on PlanetMinecraft
+Teufel - Silicontent
+Ultimate Hoe - Mojang Studios
+Copper Injection - RafaMv0 on CurseForge, Mojang Studios
+
+ARMOR SETS AND ITEMS
+Choral Armor - Mojang Studios
+Copper Armor - Mojang Studios, Silicontent
+Elemental Armor - Mojang Studios
+Fireball Armor - Mojang Studios
+Frigid Armor - Mojang Studios
+Hellfire Armor - Unknown user on Minecraft Feedback (https://feedback.minecraft.net/hc/en-us/community/posts/360061551352-Molten-Netherite-Gear)
+Obsidian Armor - Mojang Studios
+Sculken Armor - (unknown)
+Stone Armor - exline on PlanetMinecraft
+Deepslate Armor - Mojang Studios, exline on PlanetMinecraft
+Terminite Armor - Mojang Studios
+Demonite Armor - Mojang Studios
+
+ORE AND INGOTS
+Hellfire Chunk - Mojang Studios
+Hellfire Ingot - Re-Logic
+Meteor Ingot - Re-Logic
+Sculken Ingot - Mojang Studios
+Terminite Ingot - Re-Logic, Silicontent
+Demonite Ingot - Re-Logic, Silicontent
+
+OTHER ITEMS
+All Essences - Re-Logic
+All Totems - Mojang Studios
+Obsidian Fragment - Mojang Studios
+A Stand-In Item - Silicontent
+Reinforced Stick - Mojang Studios
+Ultim Eye - Mojang Studios
+Withered Bone - Mojang Studios, Silicontent
+
+ENTITIES
+Living Tree - Silicontent, Mojang Studios

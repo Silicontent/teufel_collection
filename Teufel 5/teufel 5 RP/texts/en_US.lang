@@ -1,0 +1,216 @@
+death.attack.anvil=%1$s found out that heavy metal going at 121 mph hurts. A lot.
+death.attack.arrow=%1$s was 360 no-scoped by %2$s.
+death.attack.arrow.item=%1$s was 360 no-scoped by %2$s using %3$s.
+death.attack.bullet=%1$s was popped by %2$s.
+death.attack.cactus=%1$s managed to die by a cactus. Please mock them for me.
+death.attack.cactus.player=%1$s managed to die by a cactus while running from %2$s.
+death.attack.drown=%1$s got wet.
+death.attack.drown.player=%1$s got wet with %2$s.
+death.attack.explosion=%1$s was Nagasaki'd.
+death.attack.explosion.player=%1$s smashed hydrogen atoms together with %2$s.
+death.attack.fall=%1$s got Sparta'd.
+death.attack.fallingBlock=%1$s got done in by Minecraft's "great" physics engine.
+death.attack.fireball=%1$s was nuked from above by %2$s.
+death.attack.fireball.item=%1$s was nuked from above by %2$s using %3$s.
+death.attack.fireworks=%1$s became a true 'Murican.
+death.attack.flyIntoWall=%1$s forgot to turn on no-clip and ran face-first into a wall.
+death.attack.generic=%1$s's heart stopped.
+death.attack.indirectMagic=%1$s was drugged by %2$s.
+death.attack.indirectMagic.item=%1$s was drugged by %2$s using %3$s.
+death.attack.inFire=%1$s became kindling.
+death.attack.inFire.player=%1$s became kindling whilst fighting %2$s.
+death.attack.inWall=%1$s realized breathing in solids isn't a great idea for long-term survival.
+death.attack.lava=%1$s wished lava was a cooler guy.
+death.attack.lava.player=%1$s ended it all in lava to escape either %2$s or the IRS.
+death.attack.lightningBolt=%1$s was struck with the might of Zeus, somehow.
+death.attack.magic=%1$s overdosed.
+death.attack.magma=%1$s walked on a hot beach without shoes, then they had a heart attack or something I don't know.
+death.attack.magma.player=%1$s did something really stupid involving a MAGMA block and died due to %2$s.
+death.attack.mob=%1$s was disemboweled by %2$s.
+death.attack.onFire=%1$s didn't start or stop the fire.
+death.attack.onFire.player=%1$s was cooked well-done whilst losing against %2$s.
+death.attack.outOfWorld=%1$s discovered the void floor that exists in Bedrock Edition for some reason.
+death.attack.player=%1$s was team-killed by %2$s.
+death.attack.player.item=%1$s was team-killed by %2$s using %3$s.
+death.attack.spit=%1$s drowned in saliva (yes really) by %2$s.
+death.attack.starve=%1$s joined the rains down in Africa.
+death.attack.thorns=%1$s realized their actions have consequences thanks to %2$s.
+death.attack.thrown=%1$s was battered and hung out to dry by %2$s.
+death.attack.thrown.item=%1$s was battered and hung out to dry by %2$s using %3$s.
+death.attack.trident=%1$s was crucified by %2$s.
+death.attack.wither=%1$s simply ceased. That's it. Nothing funny. They just died.
+death.attack.freeze=%1$s was sent to Siberia.
+death.attack.stalactite=%1$s discovered gravity affects other objects in the world.
+death.attack.stalagmite=%1$s discovered gravity affects them.
+death.fell.accident.generic=%1$s forgot to look down.
+death.fell.accident.ladder=%1$s died. You're probably not going to see this message, so I don't feel like coming up with something funny for it.
+death.fell.accident.vines=%1$s died. You're probably not going to see this message, so I don't feel like coming up with something funny for it.
+death.fell.accident.water=%1$s took a dunk, slipped, and went "kerplunk!"
+death.fell.assist=%1$s's destiny was found six feet under by %2$s.
+death.fell.assist.item=%1$s's destiny found was six feet under by %2$s using %3$s.
+death.fell.finish=%1$s discovered gravity with %2$s.
+death.fell.finish.item=%1$s discovered gravity with %2$s using %3$s.
+death.fell.killer=%1$s discovered gravity.
+
+deathScreen.deleteWorld=actions with consequences
+deathScreen.hardcoreInfo=it's like life: yolo
+deathScreen.leaveServer=go play singleplayer, you lonely piece of ****
+deathScreen.message=how
+deathScreen.quit=there is no turning back now
+deathScreen.quit.confirm=but why? why would you do that?
+deathScreen.quit.confirmToMainMenuWarning=but why? why would you do that?
+deathScreen.quit.confirmToMainMenuTitleWarning=there is no turning back now
+deathScreen.quit.secondaryClient=save and leave like a nerd
+deathScreen.quit.secondaryClient.confirmLeaveWarning=you may be saving, but it doesn't excuse your pussy-ness
+deathScreen.quit.secondaryClient.confirmLeaveTitleWarning=you cannot escape
+deathScreen.respawn=return to the nightmare
+deathScreen.score=useless number
+deathScreen.title=skill issue
+deathScreen.title.hardcore=major skill issue
+deathScreen.titleScreen=there is no turning back now
+
+
+item.teufel:life_essence.name=Essence of Life
+item.teufel:death_essence.name=Essence of Death
+item.teufel:fire_essence.name=Essence of Fire
+item.teufel:frost_essence.name=Essence of Frost
+item.teufel:hope_essence.name=Essence of Hope
+item.teufel:pain_essence.name=Essence of Pain
+
+item.teufel:totem.name=Totem
+item.teufel:totem_of_dying.name=Totem of Dying
+item.teufel:totem_of_escape.name=Totem of Escape
+item.teufel:totem_of_the_seas.name=Totem of the Seas
+item.teufel:totem_of_the_last_stand.name=Totem of the Last Stand
+item.teufel:totem_of_heights.name=Totem of Heights
+item.teufel:totem_of_power.name=Totem of Power
+item.teufel:totem_of_movement.name=Totem of Movement
+
+tile.teufel:living_wood.name=Living Wood
+tile.teufel:living_wood_planks.name=Living Wood Planks
+tile.teufel:hellfire_ore.name=Hellfire Ore
+tile.teufel:hellfire_block.name=Block of Hellfire
+tile.teufel:terminite_block.name=Block of Terminite
+tile.teufel:sculken_block.name=Block of Sculken
+tile.teufel:teufel_block.name=Block of Demonite
+
+item.spawn_egg.entity.teufel:living_tree.name=Spawn Living Tree
+item.teufel:reinforced_stick.name=Reinforced Stick
+item.teufel:ultim_eye.name=Ultim Eye
+item.teufel:withered_bone.name=Withered Bone
+item.teufel:obsidian_fragment.name=Obsidian Fragment
+item.teufel:hellfire_chunk.name=Hellfire Chunk
+item.teufel:meteor_ingot.name=Meteor Ingot
+item.teufel:hellfire_ingot.name=Hellfire Ingot
+item.teufel:terminite_ingot.name=Terminite Ingot
+item.teufel:sculken_ingot.name=Sculken Ingot
+item.teufel:teufel_ingot.name=Demonite Ingot
+
+
+entity.teufel:living_tree.name=Living Tree
+
+
+item.teufel:stone_helmet.name=Stone Helmet
+item.teufel:stone_chestplate.name=Stone Chestplate
+item.teufel:stone_leggings.name=Stone Leggings
+item.teufel:stone_boots.name=Stone Boots
+
+item.teufel:deepslate_helmet.name=Deepslate Helmet
+item.teufel:deepslate_chestplate.name=Deepslate Chestplate
+item.teufel:deepslate_leggings.name=Deepslate Leggings
+item.teufel:deepslate_boots.name=Deepslate Boots
+
+item.teufel:fireball_helmet.name=Fireball Helmet
+item.teufel:fireball_chestplate.name=Fireball Chestplate
+item.teufel:fireball_leggings.name=Fireball Leggings
+item.teufel:fireball_boots.name=Fireball Boots
+
+item.teufel:frigid_helmet.name=Frigid Helmet
+item.teufel:frigid_chestplate.name=Frigid Chestplate
+item.teufel:frigid_leggings.name=Frigid Leggings
+item.teufel:frigid_boots.name=Frigid Boots
+
+item.teufel:obsidian_helmet.name=Obsidian Helmet
+item.teufel:obsidian_chestplate.name=Obsidian Chestplate
+item.teufel:obsidian_leggings.name=Obsidian Leggings
+item.teufel:obsidian_boots.name=Obsidian Boots
+
+item.teufel:hellfire_helmet.name=Hellfire Helmet
+item.teufel:hellfire_chestplate.name=Hellfire Chestplate
+item.teufel:hellfire_leggings.name=Hellfire Leggings
+item.teufel:hellfire_boots.name=Hellfire Boots
+
+item.teufel:elemental_helmet.name=Elemental Helmet
+item.teufel:elemental_chestplate.name=Elemental Chestplate
+item.teufel:elemental_leggings.name=Elemental Leggings
+item.teufel:elemental_boots.name=Elemental Boots
+
+item.teufel:choral_helmet.name=Choral Helmet
+item.teufel:choral_chestplate.name=Choral Chestplate
+item.teufel:choral_leggings.name=Choral Leggings
+item.teufel:choral_boots.name=Choral Boots
+
+item.teufel:terminite_helmet.name=Terminite Helmet
+item.teufel:terminite_chestplate.name=Terminite Chestplate
+item.teufel:terminite_leggings.name=Terminite Leggings
+item.teufel:terminite_boots.name=Terminite Boots
+
+item.teufel:sculken_helmet.name=Sculken Helmet
+item.teufel:sculken_chestplate.name=Sculken Chestplate
+item.teufel:sculken_leggings.name=Sculken Leggings
+item.teufel:sculken_boots.name=Sculken Boots
+
+item.teufel:teufel_helmet.name=Demonite Helmet
+item.teufel:teufel_chestplate.name=Demonite Chestplate
+item.teufel:teufel_leggings.name=Demonite Leggings
+item.teufel:teufel_boots.name=Demonite Boots
+
+
+item.teufel:chainmail_helmet.name=Chain Helmet
+item.teufel:chainmail_chestplate.name=Chain Chestplate
+item.teufel:chainmail_leggings.name=Chain Leggings
+item.teufel:chainmail_boots.name=Chain Boots
+
+item.teufel:iron_helmet.name=Iron Helmet
+item.teufel:iron_chestplate.name=Iron Chestplate
+item.teufel:iron_leggings.name=Iron Leggings
+item.teufel:iron_boots.name=Iron Boots
+
+item.teufel:golden_helmet.name=Golden Helmet
+item.teufel:golden_chestplate.name=Golden Chestplate
+item.teufel:golden_leggings.name=Golden Leggings
+item.teufel:golden_boots.name=Golden Boots
+
+item.teufel:diamond_helmet.name=Diamond Helmet
+item.teufel:diamond_chestplate.name=Diamond Chestplate
+item.teufel:diamond_leggings.name=Diamond Leggings
+item.teufel:diamond_boots.name=Diamond Boots
+
+item.teufel:netherite_helmet.name=Netherite Helmet
+item.teufel:netherite_chestplate.name=Netherite Chestplate
+item.teufel:netherite_leggings.name=Netherite Leggings
+item.teufel:netherite_boots.name=Netherite Boots
+
+
+item.teufel:fistfull_of_soil.name=Fistfull of Dirt
+item.teufel:flint_dagger.name=Flint Dagger
+item.teufel:copper_dagger.name=Copper Dagger
+item.teufel:meteor_shard.name=Meteor Shard
+item.teufel:frostbite.name=Frostbite
+item.teufel:obsidian_sword.name=Obsidian Sword
+item.teufel:inferno.name=Inferno
+item.teufel:piglin_waraxe.name=Piglin Waraxe
+item.teufel:deity_blade.name=The Deity's Blade
+item.teufel:ender_sword.name=Ender Sword
+item.teufel:terminus.name=Terminus
+item.teufel:deepslash.name=Deepslash
+item.teufel:teufel.name=Teufel
+item.teufel:ultimate_hoe.name=Ultimate Hoe
+item.teufel:copper_injection.name=Copper Injection
+
+item.teufel:wooden_sword.name=Wooden Sword
+item.teufel:stone_sword.name=Stone Sword
+item.teufel:iron_sword.name=Iron Sword
+item.teufel:golden_sword.name=Golden Sword
+item.teufel:diamond_sword.name=Diamond Sword
+item.teufel:netherite_sword.name=Netherite Sword

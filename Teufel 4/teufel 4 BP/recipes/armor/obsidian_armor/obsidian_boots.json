@@ -1,0 +1,26 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:obsidian_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X#X"
+		],
+		"key": {
+			"X": {
+				"item": "teufel:obsidian_fragment"
+			},
+			"#": {
+				"item": "minecraft:obsidian"
+			}
+		},
+		"result": {
+			"item": "teufel:obsidian_boots"
+		}
+	}
+}

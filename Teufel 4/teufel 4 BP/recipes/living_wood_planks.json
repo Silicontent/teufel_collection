@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:living_wood_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "teufel:living_wood"
+			}
+		},
+		"result": {
+			"item": "teufel:living_wood_planks",
+			"count": 4
+		}
+	}
+}

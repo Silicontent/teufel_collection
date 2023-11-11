@@ -1,0 +1,27 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:frostburn_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "teufel:frostburn_ingot"
+			},
+			"#": {
+				"item": "teufel:frostburn_block"
+			}
+		},
+		"result": {
+			"item": "teufel:frostburn_leggings"
+		}
+	}
+}

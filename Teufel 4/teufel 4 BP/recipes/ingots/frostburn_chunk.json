@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "teufel:frostburn_chunk"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "teufel:hellfire_chunk"
+			},
+			{
+				"item": "teufel:frost_essence"
+			},
+			{
+				"item": "minecraft:blaze_powder"
+			}
+		],
+		"result": {
+			"item": "teufel:frostburn_chunk"
+		}
+	}
+}

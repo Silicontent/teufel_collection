@@ -1,0 +1,25 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "teufel:elemental_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "teufel:hellfire_chestplate"
+			},
+			{
+				"item": "teufel:frigid_chestplate"
+			},
+			{
+				"item": "teufel:living_wood"
+			}
+		],
+		"result": {
+			"item": "teufel:elemental_chestplate"
+		}
+	}
+}

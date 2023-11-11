@@ -1,0 +1,19 @@
+{
+	"format_version": "1.18.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "teufel:withered_bone"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": true,
+			"minecraft:foil": false,
+			"minecraft:icon": {
+				"texture": "withered_bone"
+			},
+			"minecraft:display_name": {
+				"value": "Withered Bone"
+			}
+		}
+	}
+}

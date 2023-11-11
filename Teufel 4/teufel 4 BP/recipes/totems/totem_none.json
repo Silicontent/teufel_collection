@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:totem_none"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" B ",
+			"ETE",
+			" B "
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:cobblestone"
+			},
+			"E": {
+				"item": "minecraft:lapis_lazuli"
+			},
+			"T": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"result": {
+			"item": "teufel:totem_none"
+		}
+	}
+}

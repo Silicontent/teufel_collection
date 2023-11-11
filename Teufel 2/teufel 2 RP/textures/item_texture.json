@@ -1,0 +1,36 @@
+{
+   "resource_pack_name" : "teufel",
+   "texture_data" : {
+      "obsidian_chestplate": {
+         "textures": "textures/items/obsidian_chestplate"
+      },
+      "obsidian_helmet": {
+         "textures": "textures/items/obsidian_helmet"
+      },
+      "obsidian_leggings": {
+         "textures": "textures/items/obsidian_leggings"
+      },
+      "obsidian_boots": {
+         "textures": "textures/items/obsidian_boots"
+      },
+      "obsidian_sword": {
+         "textures": "textures/items/obsidian_sword"
+      },
+      "ultimate_hoe": {
+         "textures": "textures/items/ultimate_hoe"
+      },
+      "copper_dagger": {
+         "textures": "textures/items/copper_dagger"
+      },
+      "ultim_eye": {
+         "textures": "textures/items/ultim_eye"
+      },
+      "ender_sword": {
+         "textures": "textures/items/ender_sword"
+      },
+      "reinforced_stick": {
+         "textures": "textures/items/reinforced_stick"
+      }
+   },
+   "texture_name" : "atlas.items"
+}

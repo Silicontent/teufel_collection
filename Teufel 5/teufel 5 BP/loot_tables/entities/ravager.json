@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:saddle"
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "killed_by_player"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "condition": "killed_by_player"
+            },
+            {
+                "condition": "random_chance_with_looting",
+                "chance": 0.2,
+                "looting_multiplier": 0.02
+            }
+        ],
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "teufel:pain_essence",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "condition": "killed_by_player"
+            },
+            {
+                "condition": "random_chance_with_looting",
+                "chance": 0.25,
+                "looting_multiplier": 0.02
+            }
+        ],
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "teufel:life_essence",
+                "weight": 1
+            }
+        ]
+    }
+  ]
+}

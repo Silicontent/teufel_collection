@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:reinforced_string"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"NNN",
+			"N#N",
+			"NNN"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:string"
+			},
+			"N": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"result": {
+			"item": "teufel:reinforced_string"
+		}
+	}
+}

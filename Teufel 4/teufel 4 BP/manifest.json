@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Teufel Vier: Labor of Loathing (BP)",
+		"description": "this is getting old",
+		"min_engine_version": [
+			1,
+			19,
+			50
+		],
+		"uuid": "acd9f0f5-dc13-4010-aee8-5405d760769d",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "9b6e1566-06b4-4826-bd3c-1127a169999f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "19680858-f891-4bf9-a42c-3dfc88d00e60",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

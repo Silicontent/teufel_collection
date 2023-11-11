@@ -1,0 +1,144 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "teufel:brute_helmet",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.1,
+                    "looting_multiplier": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "teufel:brute_chestplate",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.1,
+                    "looting_multiplier": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "teufel:brute_leggings",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.1,
+                    "looting_multiplier": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "teufel:brute_boots",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.1,
+                    "looting_multiplier": 1
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.5,
+                    "looting_multiplier": 0.02
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "teufel:fire_essence",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.2,
+                    "looting_multiplier": 0.02
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "teufel:pain_essence",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.25,
+                    "looting_multiplier": 0.02
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "teufel:life_essence",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

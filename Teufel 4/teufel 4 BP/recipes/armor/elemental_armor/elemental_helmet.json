@@ -1,0 +1,25 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "teufel:elemental_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "teufel:hellfire_helmet"
+			},
+			{
+				"item": "teufel:frostburn_helmet"
+			},
+			{
+				"item": "teufel:living_helmet"
+			}
+		],
+		"result": {
+			"item": "teufel:elemental_helmet"
+		}
+	}
+}

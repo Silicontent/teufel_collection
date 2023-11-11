@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "teufel:teufel_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "teufel:pain_essence"
+			},
+			{
+				"item": "teufel:meteor_ingot"
+			},
+			{
+				"item": "teufel:hellfire_ingot"
+			},
+			{
+				"item": "teufel:frost_essence"
+			},
+			{
+				"item": "teufel:terminite_ingot"
+			},
+			{
+				"item": "teufel:sculken_ingot"
+			}
+		],
+		"result": {
+			"item": "teufel:teufel_ingot",
+			"count": 2
+		}
+	}
+}

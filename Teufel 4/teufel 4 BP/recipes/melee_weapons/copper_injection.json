@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:copper_injection"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"S",
+			"C",
+			"G"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:glass"
+			},
+			"S": {
+				"item": "minecraft:nether_star"
+			},
+			"C": {
+				"item": "minecraft:copper_block"
+			}
+		},
+		"result": {
+			"item": "teufel:copper_injection"
+		}
+	}
+}

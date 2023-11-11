@@ -1,0 +1,351 @@
+{
+   "resource_pack_name": "teufel",
+   "texture_data": {
+      "stone_chestplate": {
+         "textures": "textures/items/armor/stone_armor/stone_chestplate"
+      },
+      "stone_helmet": {
+         "textures": "textures/items/armor/stone_armor/stone_helmet"
+      },
+      "stone_leggings": {
+         "textures": "textures/items/armor/stone_armor/stone_leggings"
+      },
+      "stone_boots": {
+         "textures": "textures/items/armor/stone_armor/stone_boots"
+      },
+      "deepslate_chestplate": {
+         "textures": "textures/items/armor/stone_armor/deepslate_chestplate"
+      },
+      "deepslate_helmet": {
+         "textures": "textures/items/armor/stone_armor/deepslate_helmet"
+      },
+      "deepslate_leggings": {
+         "textures": "textures/items/armor/stone_armor/deepslate_leggings"
+      },
+      "deepslate_boots": {
+         "textures": "textures/items/armor/stone_armor/deepslate_boots"
+      },
+      "copper_chestplate": {
+         "textures": "textures/items/armor/copper_armor/copper_chestplate"
+      },
+      "copper_helmet": {
+         "textures": "textures/items/armor/copper_armor/copper_helmet"
+      },
+      "copper_leggings": {
+         "textures": "textures/items/armor/copper_armor/copper_leggings"
+      },
+      "copper_boots": {
+         "textures": "textures/items/armor/copper_armor/copper_boots"
+      },
+      "meteor_ingot": {
+         "textures": "textures/items/ingots/meteor_ingot"
+      },
+      "fireball_chestplate": {
+         "textures": "textures/items/armor/fireball_armor/fireball_chestplate"
+      },
+      "fireball_helmet": {
+         "textures": "textures/items/armor/fireball_armor/fireball_helmet"
+      },
+      "fireball_leggings": {
+         "textures": "textures/items/armor/fireball_armor/fireball_leggings"
+      },
+      "fireball_boots": {
+         "textures": "textures/items/armor/fireball_armor/fireball_boots"
+      },
+      "life_essence": {
+         "textures": "textures/items/essences/life_essence"
+      },
+      "death_essence": {
+         "textures": "textures/items/essences/death_essence"
+      },
+      "fire_essence": {
+         "textures": "textures/items/essences/fire_essence"
+      },
+      "frost_essence": {
+         "textures": "textures/items/essences/frost_essence"
+      },
+      "peace_essence": {
+         "textures": "textures/items/essences/peace_essence"
+      },
+      "pain_essence": {
+         "textures": "textures/items/essences/pain_essence"
+      },
+      "frigid_chestplate": {
+         "textures": "textures/items/armor/frigid_armor/frigid_chestplate"
+      },
+      "frigid_helmet": {
+         "textures": "textures/items/armor/frigid_armor/frigid_helmet"
+      },
+      "frigid_leggings": {
+         "textures": "textures/items/armor/frigid_armor/frigid_leggings"
+      },
+      "frigid_boots": {
+         "textures": "textures/items/armor/frigid_armor/frigid_boots"
+      },
+      "obsidian_chestplate": {
+         "textures": "textures/items/armor/obsidian_armor/obsidian_chestplate"
+      },
+      "obsidian_helmet": {
+         "textures": "textures/items/armor/obsidian_armor/obsidian_helmet"
+      },
+      "obsidian_leggings": {
+         "textures": "textures/items/armor/obsidian_armor/obsidian_leggings"
+      },
+      "obsidian_boots": {
+         "textures": "textures/items/armor/obsidian_armor/obsidian_boots"
+      },
+      "obsidian_fragment": {
+         "textures": "textures/items/obsidian_fragment"
+      },
+      "hellfire_chestplate": {
+         "textures": "textures/items/armor/hellfire_armor/hellfire_chestplate"
+      },
+      "hellfire_helmet": {
+         "textures": "textures/items/armor/hellfire_armor/hellfire_helmet"
+      },
+      "hellfire_leggings": {
+         "textures": "textures/items/armor/hellfire_armor/hellfire_leggings"
+      },
+      "hellfire_boots": {
+         "textures": "textures/items/armor/hellfire_armor/hellfire_boots"
+      },
+      "hellfire_chunk": {
+         "textures": "textures/items/raw/hellfire_chunk"
+      },
+      "hellfire_ingot": {
+         "textures": "textures/items/ingots/hellfire_ingot"
+      },
+      "elemental_chestplate": {
+         "textures": "textures/items/armor/elemental_armor/elemental_chestplate"
+      },
+      "elemental_helmet": {
+         "textures": "textures/items/armor/elemental_armor/elemental_helmet"
+      },
+      "elemental_leggings": {
+         "textures": "textures/items/armor/elemental_armor/elemental_leggings"
+      },
+      "elemental_boots": {
+         "textures": "textures/items/armor/elemental_armor/elemental_boots"
+      },
+      "choral_chestplate": {
+         "textures": "textures/items/armor/choral_armor/choral_chestplate"
+      },
+      "choral_helmet": {
+         "textures": "textures/items/armor/choral_armor/choral_helmet"
+      },
+      "choral_leggings": {
+         "textures": "textures/items/armor/choral_armor/choral_leggings"
+      },
+      "choral_boots": {
+         "textures": "textures/items/armor/choral_armor/choral_boots"
+      },
+      "terminite_chestplate": {
+         "textures": "textures/items/armor/terminite_armor/terminite_chestplate"
+      },
+      "terminite_helmet": {
+         "textures": "textures/items/armor/terminite_armor/terminite_helmet"
+      },
+      "terminite_leggings": {
+         "textures": "textures/items/armor/terminite_armor/terminite_leggings"
+      },
+      "terminite_boots": {
+         "textures": "textures/items/armor/terminite_armor/terminite_boots"
+      },
+      "sculken_chestplate": {
+         "textures": "textures/items/armor/sculken_armor/sculken_chestplate"
+      },
+      "sculken_helmet": {
+         "textures": "textures/items/armor/sculken_armor/sculken_helmet"
+      },
+      "sculken_leggings": {
+         "textures": "textures/items/armor/sculken_armor/sculken_leggings"
+      },
+      "sculken_boots": {
+         "textures": "textures/items/armor/sculken_armor/sculken_boots"
+      },
+      "teufel_chestplate": {
+         "textures": "textures/items/armor/teufel_armor/teufel_chestplate"
+      },
+      "teufel_helmet": {
+         "textures": "textures/items/armor/teufel_armor/teufel_helmet"
+      },
+      "teufel_leggings": {
+         "textures": "textures/items/armor/teufel_armor/teufel_leggings"
+      },
+      "teufel_boots": {
+         "textures": "textures/items/armor/teufel_armor/teufel_boots"
+      },
+      "terminite_ingot": {
+         "textures": "textures/items/ingots/terminite_ingot"
+      },
+      "sculken_ingot": {
+         "textures": "textures/items/ingots/sculken_ingot"
+      },
+      "teufel_ingot": {
+         "textures": "textures/items/ingots/teufel_ingot"
+      },
+      "totem_none": {
+         "textures": "textures/items/totems/totem_none"
+      },
+      "totem_of_dying": {
+         "textures": "textures/items/totems/totem_of_dying"
+      },
+      "totem_of_escape": {
+         "textures": "textures/items/totems/totem_of_escape"
+      },
+      "totem_of_the_seas": {
+         "textures": "textures/items/totems/totem_of_the_seas"
+      },
+      "totem_of_the_last_resort": {
+         "textures": "textures/items/totems/totem_of_the_last_resort"
+      },
+      "totem_of_heights": {
+         "textures": "textures/items/totems/totem_of_heights"
+      },
+      "totem_of_power": {
+         "textures": "textures/items/totems/totem_of_power"
+      },
+      "totem_of_movement": {
+         "textures": "textures/items/totems/totem_of_movement"
+      },
+
+      "fistfull_of_soil": {
+         "textures": "textures/items/melee/fistfull_of_soil"
+      },
+      "flint_dagger": {
+         "textures": "textures/items/melee/flint_dagger"
+      },
+      "copper_dagger": {
+         "textures": "textures/items/melee/copper_dagger"
+      },
+      "meteor_shard": {
+         "textures": "textures/items/melee/meteor_shard"
+      },
+      "obsidian_sword": {
+         "textures": "textures/items/melee/obsidian_sword"
+      },
+      "inferno": {
+         "textures": "textures/items/melee/inferno"
+      },
+      "piglin_waraxe": {
+         "textures": "textures/items/melee/piglin_waraxe"
+      },
+      "frostbite": {
+         "textures": "textures/items/melee/frostbite"
+      },
+      "deity_blade": {
+         "textures": "textures/items/melee/deity_blade"
+      },
+      "ender_sword": {
+         "textures": "textures/items/melee/ender_sword"
+      },
+      "terminus": {
+         "textures": "textures/items/melee/terminus"
+      },
+      "deepslash": {
+         "textures": "textures/items/melee/deepslash"
+      },
+      "teufel": {
+         "textures": "textures/items/melee/teufel"
+      },
+      "ultimate_hoe": {
+         "textures": "textures/items/melee/ultimate_hoe"
+      },
+      "reinforced_stick": {
+         "textures": "textures/items/reinforced_stick"
+      },
+      "ultim_eye": {
+         "textures": "textures/items/ultim_eye"
+      },
+      "poor_excuse": {
+         "textures": "textures/items/poor_excuse"
+      },
+      "withered_bone": {
+         "textures": "textures/items/withered_bone"
+      },
+      "copper_injection": {
+         "textures": "textures/items/melee/copper_injection"
+      },
+         
+      "wooden_sword": {
+         "textures": "textures/items/melee/vanilla/wooden_sword"
+      },
+      "stone_sword": {
+         "textures": "textures/items/melee/vanilla/stone_sword"
+      },
+      "iron_sword": {
+         "textures": "textures/items/melee/vanilla/iron_sword"
+      },
+      "golden_sword": {
+         "textures": "textures/items/melee/vanilla/golden_sword"
+      },
+      "diamond_sword": {
+         "textures": "textures/items/melee/vanilla/diamond_sword"
+      },
+      "netherite_sword": {
+         "textures": "textures/items/melee/vanilla/netherite_sword"
+      },
+
+      "chainmail_chestplate": {
+         "textures": "textures/items/armor/vanilla_armor/chainmail_armor/chainmail_chestplate"
+      },
+      "chainmail_helmet": {
+         "textures": "textures/items/armor/vanilla_armor/chainmail_armor/chainmail_helmet"
+      },
+      "chainmail_leggings": {
+         "textures": "textures/items/armor/vanilla_armor/chainmail_armor/chainmail_leggings"
+      },
+      "chainmail_boots": {
+         "textures": "textures/items/armor/vanilla_armor/chainmail_armor/chainmail_boots"
+      },
+      "diamond_chestplate": {
+         "textures": "textures/items/armor/vanilla_armor/diamond_armor/diamond_chestplate"
+      },
+      "diamond_helmet": {
+         "textures": "textures/items/armor/vanilla_armor/diamond_armor/diamond_helmet"
+      },
+      "diamond_leggings": {
+         "textures": "textures/items/armor/vanilla_armor/diamond_armor/diamond_leggings"
+      },
+      "diamond_boots": {
+         "textures": "textures/items/armor/vanilla_armor/diamond_armor/diamond_boots"
+      },
+      "golden_chestplate": {
+         "textures": "textures/items/armor/vanilla_armor/golden_armor/gold_chestplate"
+      },
+      "golden_helmet": {
+         "textures": "textures/items/armor/vanilla_armor/golden_armor/gold_helmet"
+      },
+      "golden_leggings": {
+         "textures": "textures/items/armor/vanilla_armor/golden_armor/gold_leggings"
+      },
+      "golden_boots": {
+         "textures": "textures/items/armor/vanilla_armor/golden_armor/gold_boots"
+      },
+      "iron_chestplate": {
+         "textures": "textures/items/armor/vanilla_armor/iron_armor/iron_chestplate"
+      },
+      "iron_helmet": {
+         "textures": "textures/items/armor/vanilla_armor/iron_armor/iron_helmet"
+      },
+      "iron_leggings": {
+         "textures": "textures/items/armor/vanilla_armor/iron_armor/iron_leggings"
+      },
+      "iron_boots": {
+         "textures": "textures/items/armor/vanilla_armor/iron_armor/iron_boots"
+      },
+      "netherite_chestplate": {
+         "textures": "textures/items/armor/vanilla_armor/netherite_armor/netherite_chestplate"
+      },
+      "netherite_helmet": {
+         "textures": "textures/items/armor/vanilla_armor/netherite_armor/netherite_helmet"
+      },
+      "netherite_leggings": {
+         "textures": "textures/items/armor/vanilla_armor/netherite_armor/netherite_leggings"
+      },
+      "netherite_boots": {
+         "textures": "textures/items/armor/vanilla_armor/netherite_armor/netherite_boots"
+      }
+   },
+   "texture_name": "atlas.items"
+}

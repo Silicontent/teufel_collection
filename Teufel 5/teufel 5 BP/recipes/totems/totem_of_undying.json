@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:totem_of_undying"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" S ",
+			"ETE",
+			" B "
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:gold_block"
+			},
+			"E": {
+				"item": "minecraft:emerald"
+			},
+			"T": {
+				"item": "teufel:totem_none"
+			},
+			"S": {
+				"item": "teufel:life_essence"
+			}
+		},
+		"result": {
+			"item": "minecraft:totem_of_undying"
+		}
+	}
+}

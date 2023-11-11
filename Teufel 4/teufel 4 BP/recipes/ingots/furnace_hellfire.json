@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "teufel:furnace_hellfire"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "teufel:hellfire_chunk",
+		"output": "teufel:hellfire_ingot"
+	}
+}

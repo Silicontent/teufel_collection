@@ -1,0 +1,1670 @@
+{
+	"format_version": "1.19.81",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"minecraft:add_bad_omen": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "bad_omen",
+							"duration": 6000,
+							"visible": false,
+							"display_on_screen_animation": true
+						}
+					]
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						0
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:clear_add_bad_omen",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:clear_bad_omen_spell_effect": {
+				"minecraft:spell_effects": {}
+			},
+			"minecraft:raid_trigger": {
+				"minecraft:raid_trigger": {
+					"triggered_event": {
+						"event": "minecraft:remove_raid_trigger",
+						"target": "self"
+					}
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": "bad_omen"
+				}
+			},
+			"teufel:default_player": {
+				"minecraft:collision_box": {
+					"width": 0.6,
+					"height": 1.8
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:hurt_on_condition": {
+					"damage_conditions": [
+						{
+							"filters": {
+								"test": "in_lava",
+								"subject": "self",
+								"operator": "==",
+								"value": true
+							},
+							"cause": "lava",
+							"damage_per_tick": 999
+						}
+					]
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:breathable": {
+					"total_supply": 0,
+					"suffocate_time": 2,
+					"inhale_time": 3.75,
+					"generates_bubbles": false
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				}
+			},
+			"teufel:copper_armor": {
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:copper_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:fireball_armor": {
+				"minecraft:health": {
+					"value": 22,
+					"max": 22
+				}
+			},
+			"teufel:lush_armor": {
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:lush_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:spider_armor": {
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:spider_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:living_armor": {
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:living_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:frigid_armor": {
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:frigid_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:obsidian_armor": {
+				"minecraft:health": {
+					"value": 24,
+					"max": 24
+				}
+			},
+			"teufel:hellfire_armor": {
+				"minecraft:health": {
+					"value": 26,
+					"max": 26
+				},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:hellfire_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:blazing_armor": {
+				"minecraft:health": {
+					"value": 26,
+					"max": 26
+				},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:blazing_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:wither_armor": {
+				"minecraft:health": {
+					"value": 28,
+					"max": 28
+				},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:wither_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:brute_armor": {
+				"minecraft:health": {
+					"value": 30,
+					"max": 30
+				}
+			},
+			"teufel:frostburn_armor": {
+				"minecraft:health": {
+					"value": 32,
+					"max": 32
+				},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:frostburn_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:elemental_armor": {
+				"minecraft:health": {
+					"value": 35,
+					"max": 35
+				},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:elemental_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			},
+			"teufel:shulk_armor": {
+				"minecraft:health": {
+					"value": 37,
+					"max": 37
+				}
+			},
+			"teufel:choral_armor": {
+				"minecraft:health": {
+					"value": 37,
+					"max": 37
+				}
+			},
+			"teufel:terminite_armor": {
+				"minecraft:health": {
+					"value": 40,
+					"max": 40
+				}
+			},
+			"teufel:sculken_armor": {
+				"minecraft:health": {
+					"value": 50,
+					"max": 50
+				}
+			},
+			"teufel:teufel_armor": {
+				"minecraft:health": {
+					"value": 60,
+					"max": 60
+				},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "attack"
+							},
+							"event": "teufel:teufel_armor_bonus"
+						},
+						"deals_damage": true
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:experience_reward": {
+				"on_death": "math.min(query.player_level*5,100)"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 999
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:exhaustion_values": {
+				"heal": 6,
+				"jump": 0.05,
+				"sprint_jump": 0.2,
+				"mine": 0.005,
+				"attack": 0.1,
+				"damage": 0.1,
+				"walk": 0,
+				"sprint": 0.01,
+				"swim": 0.01
+			},
+			"minecraft:player.saturation": {
+				"value": 5,
+				"max": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 20
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"total_supply": 0,
+				"suffocate_time": 2,
+				"inhale_time": 3.75,
+				"generates_bubbles": false
+			},
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 2
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"creeper",
+					"skeleton",
+					"blaze"
+				],
+				"pull_in_entities": true,
+				"seats": [
+					{
+						"position": [
+							0.4,
+							-0.2,
+							-0.1
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [
+							-0.4,
+							-0.2,
+							-0.1
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:block_climber": {},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_mob_effect",
+									"subject": "self",
+									"value": "bad_omen"
+								},
+								{
+									"test": "is_in_village",
+									"subject": "self",
+									"value": true
+								}
+							]
+						},
+						"event": "minecraft:trigger_raid"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "self",
+									"value": "player"
+								}
+							]
+						},
+						"event": "teufel:default_player"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:copper_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:copper_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:copper_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:copper_boots"
+								}
+							]
+						},
+						"event": "teufel:copper_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:fireball_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:fireball_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:fireball_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:fireball_boots"
+								}
+							]
+						},
+						"event": "teufel:fireball_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:lush_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:lush_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:lush_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:lush_boots"
+								}
+							]
+						},
+						"event": "teufel:lush_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:spider_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:spider_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:spider_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:spider_boots"
+								}
+							]
+						},
+						"event": "teufel:spider_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:living_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:living_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:living_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:living_boots"
+								}
+							]
+						},
+						"event": "teufel:living_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:frigid_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:frigid_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:frigid_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:frigid_boots"
+								}
+							]
+						},
+						"event": "teufel:frigid_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:obsidian_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:obsidian_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:obsidian_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:obsidian_boots"
+								}
+							]
+						},
+						"event": "teufel:obsidian_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:hellfire_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:hellfire_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:hellfire_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:hellfire_boots"
+								}
+							]
+						},
+						"event": "teufel:hellfire_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:blazing_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:blazing_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:blazing_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:blazing_boots"
+								}
+							]
+						},
+						"event": "teufel:blazing_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:wither_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:wither_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:wither_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:wither_boots"
+								}
+							]
+						},
+						"event": "teufel:wither_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:brute_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:brute_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:brute_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:brute_boots"
+								}
+							]
+						},
+						"event": "teufel:brute_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:frostburn_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:frostburn_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:frostburn_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:frostburn_boots"
+								}
+							]
+						},
+						"event": "teufel:frostburn_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:elemental_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:elemental_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:elemental_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:elemental_boots"
+								}
+							]
+						},
+						"event": "teufel:elemental_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:shulk_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:shulk_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:shulk_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:shulk_boots"
+								}
+							]
+						},
+						"event": "teufel:shulk_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:choral_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:choral_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:choral_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:choral_boots"
+								}
+							]
+						},
+						"event": "teufel:choral_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:terminite_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:terminite_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:terminite_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:terminite_boots"
+								}
+							]
+						},
+						"event": "teufel:terminite_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:sculken_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:sculken_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:sculken_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:sculken_boots"
+								}
+							]
+						},
+						"event": "teufel:sculken_armor"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "teufel:teufel_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "torso",
+									"operator": "==",
+									"value": "teufel:teufel_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "leg",
+									"operator": "==",
+									"value": "teufel:teufel_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"operator": "==",
+									"value": "teufel:teufel_boots"
+								}
+							]
+						},
+						"event": "teufel:teufel_armor"
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:gain_bad_omen": {
+				"add": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				}
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:clear_bad_omen_spell_effect"
+					]
+				}
+			},
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"teufel:default_player": {
+				"add": {
+					"component_groups": [
+						"teufel:default_player"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"teufel:copper_armor",
+						"teufel:fireball_armor",
+						"teufel:lush_armor",
+						"teufel:spider_armor",
+						"teufel:living_armor",
+						"teufel:frigid_armor",
+						"teufel:obsidian_armor",
+						"teufel:hellfire_armor",
+						"teufel:blazing_armor",
+						"teufel:wither_armor",
+						"teufel:brute_armor",
+						"teufel:frostburn_armor",
+						"teufel:elemental_armor",
+						"teufel:shulk_armor",
+						"teufel:choral_armor",
+						"teufel:terminite_armor",
+						"teufel:sculken_armor",
+						"teufel:teufel_armor"
+					]
+				}
+			},
+			"teufel:copper_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:copper_armor"
+					]
+				}
+			},
+			"teufel:copper_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 5,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"effect @s fire_resistance 5 1"
+									],
+									"target": "self"
+								}
+							},
+							{
+								"run_command": {
+									"command": [
+										"effect @s resistance 2 10"
+									],
+									"target": "self"
+								}
+							},
+							{
+								"run_command": {
+									"command": [
+										"summon lightning_bolt ~ ~ ~"
+									],
+									"target": "other"
+								}
+							}
+						]
+					},
+					{
+						"weight": 95
+					}
+				]
+			},
+			"teufel:fireball_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:fireball_armor"
+					]
+				}
+			},
+			"teufel:lush_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:lush_armor"
+					]
+				}
+			},
+			"teufel:lush_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 20,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"effect @s regeneration 10 1"
+									],
+									"target": "self"
+								}
+							}
+						]
+					},
+					{
+						"weight": 80
+					}
+				]
+			},
+			"teufel:spider_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:spider_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s night_vision 15 0 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:spider_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 75,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"effect @s slowness 10 1"
+									],
+									"target": "other"
+								}
+							}
+						]
+					},
+					{
+						"weight": 25
+					}
+				]
+			},
+			"teufel:living_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:living_armor"
+					]
+				}
+			},
+			"teufel:living_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 30,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"damage @s 1 none entity @p"
+									],
+									"target": "other"
+								}
+							},
+							{
+								"run_command": {
+									"command": [
+										"effect @s instant_health 1 0"
+									],
+									"target": "self"
+								}
+							}
+						]
+					},
+					{
+						"weight": 30
+					}
+				]
+			},
+			"teufel:frigid_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:frigid_armor"
+					]
+				}
+			},
+			"teufel:frigid_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 40,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"effect @s slowness 8 255"
+									],
+									"target": "other"
+								}
+							}
+						]
+					},
+					{
+						"weight": 60
+					}
+				]
+			},
+			"teufel:obsidian_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:obsidian_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s fire_resistance 2 0 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:hellfire_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:hellfire_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s fire_resistance 2 0 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:hellfire_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 35,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"effect @s resistance 2 10"
+									],
+									"target": "self"
+								}
+							},
+							{
+								"run_command": {
+									"command": [
+										"summon lightning_bolt ~ ~ ~"
+									],
+									"target": "other"
+								}
+							}
+						]
+					},
+					{
+						"weight": 65
+					}
+				]
+			},
+			"teufel:blazing_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:blazing_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"function blazing_bonus"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:blazing_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 36,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"effect @s resistance 2 10"
+									],
+									"target": "self"
+								}
+							},
+							{
+								"run_command": {
+									"command": [
+										"summon lightning_bolt ~ ~ ~"
+									],
+									"target": "other"
+								}
+							}
+						]
+					},
+					{
+						"weight": 64
+					}
+				]
+			},
+			"teufel:wither_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:wither_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s fire_resistance 2 0 true"
+					],
+					"target": "self"
+				},
+				"run_command": {
+					"command": [
+						"effect @s strength 2 0 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:wither_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 25,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"effect @s wither 10 0"
+									],
+									"target": "other"
+								}
+							}
+						]
+					},
+					{
+						"weight": 75
+					}
+				]
+			},
+			"teufel:brute_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:brute_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s fire_resistance 2 0 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:frostburn_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:frostburn_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"function frostburn_bonus"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:frostburn_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 50,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"damage @s 4 none entity @p"
+									],
+									"target": "other"
+								}
+							},
+							{
+								"run_command": {
+									"command": [
+										"effect @s instant_health 1 0"
+									],
+									"target": "self"
+								}
+							}
+						]
+					},
+					{
+						"weight": 50
+					}
+				]
+			},
+			"teufel:elemental_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:elemental_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"function elemental_bonus"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:elemental_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 50,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"damage @s 8 none entity @p"
+									],
+									"target": "other"
+								}
+							},
+							{
+								"run_command": {
+									"command": [
+										"effect @s instant_health 1 0"
+									],
+									"target": "self"
+								}
+							}
+						]
+					},
+					{
+						"weight": 50
+					}
+				]
+			},
+			"teufel:shulk_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:shulk_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s speed 2 1 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:choral_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:choral_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s speed 2 1 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:terminite_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:terminite_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s speed 2 1 true"
+					],
+					"target": "self"
+				},
+				"run_command": {
+					"command": [
+						"effect @s strength 2 1 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:sculken_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:sculken_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @s speed 2 1 true"
+					],
+					"target": "self"
+				},
+				"run_command": {
+					"command": [
+						"effect @s strength 2 2 true"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:teufel_armor": {
+				"add": {
+					"component_groups": [
+						"teufel:teufel_armor"
+					]
+				},
+				"run_command": {
+					"command": [
+						"function teufel_bonus"
+					],
+					"target": "self"
+				}
+			},
+			"teufel:teufel_armor_bonus": {
+				"randomize": [
+					{
+						"weight": 55,
+						"sequence": [
+							{
+								"run_command": {
+									"command": [
+										"damage @s 20 none entity @p"
+									],
+									"target": "other"
+								}
+							}
+						]
+					},
+					{
+						"weight": 45
+					}
+				]
+			}
+		}
+	}
+}

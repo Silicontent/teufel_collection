@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "teufel:stick_from_living_planks"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "teufel:living_wood_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:stick",
+      "count": 4
+    }
+  }
+}

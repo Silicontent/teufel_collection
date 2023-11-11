@@ -1,0 +1,23 @@
+{
+	"format_version": "1.18.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:frigid_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:ice"
+			}
+		},
+		"result": {
+			"item": "teufel:frigid_boots"
+		}
+	}
+}

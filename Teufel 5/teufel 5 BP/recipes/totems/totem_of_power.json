@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:totem_of_power"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" S ",
+			"ETE",
+			" B "
+		],
+		"key": {
+			"B": {
+				"item": "teufel:hellfire_block"
+			},
+			"E": {
+				"item": "minecraft:diamond"
+			},
+			"T": {
+				"item": "teufel:totem_none"
+			},
+			"S": {
+				"item": "teufel:death_essence"
+			}
+		},
+		"result": {
+			"item": "teufel:totem_of_power"
+		}
+	}
+}

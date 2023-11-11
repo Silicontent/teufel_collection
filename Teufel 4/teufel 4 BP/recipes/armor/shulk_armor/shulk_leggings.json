@@ -1,0 +1,27 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:shulk_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"EXE",
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:shulker_shell"
+			},
+			"E": {
+				"item": "minecraft:end_stone"
+			}
+		},
+		"result": {
+			"item": "teufel:shulk_leggings"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:teufel_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "teufel:teufel_ingot"
+			}
+		},
+		"result": {
+			"item": "teufel:teufel_block"
+		}
+	}
+}

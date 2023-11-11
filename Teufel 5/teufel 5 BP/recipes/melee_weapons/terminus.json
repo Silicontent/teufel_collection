@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:terminus"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#",
+			"S"
+		],
+		"key": {
+			"S": {
+				"item": "teufel:reinforced_stick"
+			},
+			"#": {
+				"item": "teufel:terminite_ingot"
+			}
+		},
+		"result": {
+			"item": "teufel:terminus"
+		}
+	}
+}

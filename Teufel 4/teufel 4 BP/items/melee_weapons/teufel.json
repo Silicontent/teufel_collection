@@ -1,0 +1,136 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "teufel:teufel",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "teufel.hit"
+                }
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "on_dig": {
+                    "event": "damage"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:durability": {
+                "max_durability": 3012
+            },
+            "minecraft:damage": 61,
+            "minecraft:enchantable": {
+                "value": 55,
+                "slot": "sword"
+            },
+            "minecraft:icon": {
+                "texture": "teufel"
+            },
+            "minecraft:display_name": {
+                "value": "Teufel"
+            }
+        },
+        "events": {
+            "teufel.hit": {
+                "randomize": [
+                    {
+                        "weight": 15,
+                        "sequence": [
+                            {
+                                "run_command": {
+                                    "command": "function deity_inferno",
+                                    "target": "self"
+                                }
+                            },
+                            {
+                                "damage": {
+                                    "type": "magic",
+                                    "amount": 1,
+                                    "target": "self"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "weight": 15,
+                        "sequence": [
+                            {
+                                "run_command": {
+                                    "command": "effect @s regeneration 25 1",
+                                    "target": "self"
+                                }
+                            },
+                            {
+                                "run_command": {
+                                    "command": "effect @s slowness 20 2",
+                                    "target": "other"
+                                }
+                            },
+                            {
+                                "damage": {
+                                    "type": "magic",
+                                    "amount": 1,
+                                    "target": "self"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "weight": 15,
+                        "sequence": [
+							{
+								"run_command": {
+									"command": [
+										"effect @s wither 30 1"
+									],
+									"target": "other"
+								}
+							},
+							{
+								"run_command": {
+									"command": [
+										"effect @s instant_health 1 1"
+									],
+									"target": "self"
+								}
+							},
+                            {
+                                "damage": {
+                                    "type": "magic",
+                                    "amount": 1,
+                                    "target": "self"
+                                }
+                            }
+						]
+                    },
+                    {
+                        "weight": 70,
+                        "sequence": [
+                            {
+                                "damage": {
+                                    "type": "magic",
+                                    "amount": 1,
+                                    "target": "self"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "damage": {
+                "damage": {
+                    "type": "magic",
+                    "amount": 1,
+                    "target": "self"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Teufel Vier: Labor of Loathing (RP)",
+		"description": "this is getting old",
+		"min_engine_version": [
+			1,
+			19,
+			50
+		],
+		"uuid": "19680858-f891-4bf9-a42c-3dfc88d00e60",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "ce933f24-015b-4fc6-811b-3eaaa429eda6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "acd9f0f5-dc13-4010-aee8-5405d760769d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

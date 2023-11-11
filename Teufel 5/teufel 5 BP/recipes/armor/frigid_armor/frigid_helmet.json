@@ -1,0 +1,26 @@
+{
+	"format_version": "1.18.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:frigid_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:ice"
+			},
+			"#": {
+				"item": "teufel:frost_essence"
+			}
+		},
+		"result": {
+			"item": "teufel:frigid_helmet"
+		}
+	}
+}

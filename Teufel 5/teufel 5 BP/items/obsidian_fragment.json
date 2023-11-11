@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "teufel:obsidian_fragment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:glint": false,
+			"minecraft:icon": {
+				"texture": "obsidian_fragment"
+			},
+			"minecraft:display_name": {
+				"value": "Obsidian Fragment"
+			}
+		}
+	}
+}

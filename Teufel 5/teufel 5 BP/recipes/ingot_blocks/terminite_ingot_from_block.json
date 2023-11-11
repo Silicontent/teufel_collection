@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:terminite_ingot_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "teufel:terminite_block"
+			}
+		},
+		"result": {
+			"item": "teufel:terminite_ingot",
+			"count": 4
+		}
+	}
+}

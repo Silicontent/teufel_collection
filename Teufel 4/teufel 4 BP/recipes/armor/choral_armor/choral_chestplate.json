@@ -1,0 +1,27 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:choral_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X#X",
+			"XXX"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:chorus_fruit"
+			},
+			"#": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"result": {
+			"item": "teufel:choral_chestplate"
+		}
+	}
+}

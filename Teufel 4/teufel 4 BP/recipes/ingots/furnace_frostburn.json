@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "teufel:furnace_frostburn"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "teufel:frostburn_chunk",
+		"output": "teufel:frostburn_ingot"
+	}
+}

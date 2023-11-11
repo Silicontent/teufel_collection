@@ -1,0 +1,40 @@
+{
+    "format_version": "1.18.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "teufel:ender_sword",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:weapon": {},
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:foil": true,
+            "minecraft:durability": {
+                "max_durability": 3000
+            },
+            "minecraft:damage": 11,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "sword"
+            },
+            "minecraft:icon": {
+                "texture": "ender_sword"
+            },
+            "minecraft:display_name": {
+                "value": "Ender Sword"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": "teufel:ultima_eye",
+                        "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+                    }
+                ]
+            }
+        }
+    }
+}

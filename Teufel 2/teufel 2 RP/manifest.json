@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "makes the game partially more playable",
+        "name": "Teufel Zwei RP",
+        "uuid": "d7f2af29-a0f8-4517-92ae-c8587c2740ba",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 18, 0 ]
+    },
+    "modules": [
+        {
+            "description": "makes the game partially more playable",
+            "type": "resources",
+            "uuid": "11fc8ebe-3f74-4610-952b-64eaae57cdc6",
+            "version": [1, 0, 0]
+        }
+    ]
+}

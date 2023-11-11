@@ -1,0 +1,27 @@
+{
+  "format_version": "1.18.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "teufel:obsidian_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "X",
+      "X",
+      "#"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:obsidian"
+      },
+      "#": {
+        "item": "teufel:reinforced_stick"
+      }
+    },
+    "result": {
+      "item": "teufel:obsidian_sword"
+    }
+  }
+}

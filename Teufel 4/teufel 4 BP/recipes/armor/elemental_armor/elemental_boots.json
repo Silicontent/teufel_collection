@@ -1,0 +1,25 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "teufel:elemental_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "teufel:hellfire_boots"
+			},
+			{
+				"item": "teufel:frostburn_boots"
+			},
+			{
+				"item": "teufel:living_boots"
+			}
+		],
+		"result": {
+			"item": "teufel:elemental_boots"
+		}
+	}
+}

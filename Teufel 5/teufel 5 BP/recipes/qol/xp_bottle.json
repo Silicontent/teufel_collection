@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "teufel:xp_bottle"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " A ",
+      "GBG",
+      "LGL"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "A": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "B": {
+        "item": "minecraft:glass_bottle"
+      },
+      "L": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "result": {
+      "item": "minecraft:experience_bottle"
+    }
+  }
+}

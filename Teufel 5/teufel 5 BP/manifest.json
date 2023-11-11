@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Teufel Fünf: Guess Who's Back? (BP)",
+		"description": "(back again)",
+		"min_engine_version": [
+			1,
+			20,
+			20
+		],
+		"uuid": "ef6178fe-7236-4f47-b3c9-0fc20fe45ac2",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "e153f3ef-cc87-4f69-8a4a-eca6f1be03d9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "53d9eb59-55e2-4057-a6bd-9871d0d0e9ee",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

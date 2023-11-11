@@ -1,0 +1,26 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:terminite_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "teufel:terminite_ingot"
+			},
+			"#": {
+				"item": "teufel:terminite_block"
+			}
+		},
+		"result": {
+			"item": "teufel:terminite_helmet"
+		}
+	}
+}

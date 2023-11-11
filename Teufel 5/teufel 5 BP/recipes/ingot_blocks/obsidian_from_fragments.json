@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:obsidian_from_fragments"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "teufel:obsidian_fragment"
+			}
+		},
+		"result": {
+			"item": "minecraft:obsidian"
+		}
+	}
+}

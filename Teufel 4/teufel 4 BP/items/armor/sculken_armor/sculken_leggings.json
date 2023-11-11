@@ -1,0 +1,36 @@
+{
+	"format_version": "1.18.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "teufel:sculken_leggings",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "equipment",
+				"parent": "itemGroup.name.leggings"
+			},
+			"minecraft:icon": {
+				"texture": "sculken_leggings"
+			},
+			"minecraft:display_name": {
+				"value": "Sculken Leggings"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 40,
+				"slot": "armor_legs"
+			},
+			"minecraft:armor": {
+				"protection": 18
+			},
+			"minecraft:wearable": {
+				"dispensable": true,
+				"slot": "slot.armor.legs"
+			},
+			"minecraft:durability": {
+				"max_durability": 2000
+			}
+		}
+	}
+}

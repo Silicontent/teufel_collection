@@ -1,0 +1,26 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:choral_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X#X"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:chorus_fruit"
+			},
+			"#": {
+				"item": "minecraft:shulker_shell"
+			}
+		},
+		"result": {
+			"item": "teufel:choral_boots"
+		}
+	}
+}

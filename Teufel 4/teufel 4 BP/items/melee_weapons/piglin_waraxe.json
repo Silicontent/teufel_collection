@@ -1,0 +1,50 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "teufel:piglin_waraxe",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "damage"
+                }
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "on_dig": {
+                    "event": "damage"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:durability": {
+                "max_durability": 1952
+            },
+            "minecraft:damage": 18,
+            "minecraft:enchantable": {
+                "value": 20,
+                "slot": "sword"
+            },
+            "minecraft:icon": {
+                "texture": "piglin_waraxe"
+            },
+            "minecraft:display_name": {
+                "value": "Piglin Waraxe"
+            }
+        },
+        "events": {
+            "damage": {
+                "damage": {
+                    "type": "magic",
+                    "amount": 1,
+                    "target": "self"
+                }
+            }
+        }
+    }
+}

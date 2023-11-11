@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:copper_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"C",
+			"S"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:copper_ingot"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			},
+			"C": {
+				"item": "teufel:copper_dagger"
+			}
+		},
+		"result": {
+			"item": "teufel:copper_sword"
+		}
+	}
+}

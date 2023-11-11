@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "teufel:deity_blade"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "teufel:inferno"
+			},
+			{
+				"item": "teufel:frostbite"
+			},
+			{
+				"item": "teufel:life_essence"
+			}
+		],
+		"result": {
+			"item": "teufel:deity_blade"
+		}
+	}
+}

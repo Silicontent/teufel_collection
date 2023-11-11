@@ -1,0 +1,3 @@
+TEUFEL VIER by Silicontent
+
+This pack was probably the most ambitious project I've done. Besides the expected mob and item changes, this version of the Pain Pack adds a ton of new weapons, items, and armor sets. However, none of them really worked together, and I didn't realize that any armor sets with more than 20 defense provided the same protection as 20-defense armor. This spurred me to create the fifth revision of the pack to fix these small issues.

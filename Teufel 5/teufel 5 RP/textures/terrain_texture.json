@@ -1,0 +1,33 @@
+{
+	"resource_pack_name": "teufel",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"living_wood_side": {
+			"textures": "textures/blocks/living_wood_side"
+		},
+		"living_wood_end": {
+			"textures": "textures/blocks/living_wood_end"
+		},
+		"living_wood_planks": {
+			"textures": "textures/blocks/living_wood_planks"
+		},
+		"hellfire_ore": {
+			"textures": "textures/blocks/hellfire_ore"
+		},
+		"hellfire_block": {
+			"textures": "textures/blocks/hellfire_block"
+		},
+		"terminite_block": {
+			"textures": "textures/blocks/terminite_block"
+		},
+		"sculken_block": {
+			"textures": "textures/blocks/sculken_block"
+		},
+		"teufel_block": {
+			"textures": "textures/blocks/teufel_block"
+		}
+	}
+}
+

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:blazing_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"E E"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:blaze_rod"
+			},
+			"E": {
+				"item": "teufel:fire_essence"
+			}
+		},
+		"result": {
+			"item": "teufel:blazing_boots"
+		}
+	}
+}

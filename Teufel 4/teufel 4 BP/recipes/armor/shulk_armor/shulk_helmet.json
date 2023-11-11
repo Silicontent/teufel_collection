@@ -1,0 +1,26 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "teufel:shulk_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"EXE",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:shulker_shell"
+			},
+			"E": {
+				"item": "minecraft:end_stone"
+			}
+		},
+		"result": {
+			"item": "teufel:shulk_helmet"
+		}
+	}
+}

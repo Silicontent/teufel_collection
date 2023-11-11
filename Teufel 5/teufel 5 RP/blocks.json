@@ -1,0 +1,87 @@
+{
+    "format_version": "1.19.50",
+    "teufel:living_wood": {
+        "textures": {
+            "up": "living_wood_end",
+            "down": "living_wood_end",
+            "north": "living_wood_side",
+            "south": "living_wood_side",
+            "east": "living_wood_side",
+            "west": "living_wood_side"
+        },
+        "isotropic": false,
+        "sound": "wood"
+    },
+    "teufel:hellfire_ore": {
+        "textures": {
+            "up": "hellfire_ore",
+            "down": "hellfire_ore",
+            "north": "hellfire_ore",
+            "south": "hellfire_ore",
+            "east": "hellfire_ore",
+            "west": "hellfire_ore"
+        },
+        "isotropic": false,
+        "sound": "netherrack"
+    },
+    "teufel:living_wood_planks": {
+        "textures": {
+            "up": "living_wood_planks",
+            "down": "living_wood_planks",
+            "north": "living_wood_planks",
+            "south": "living_wood_planks",
+            "east": "living_wood_planks",
+            "west": "living_wood_planks"
+        },
+        "isotropic": false,
+        "sound": "wood"
+    },
+    "teufel:hellfire_block": {
+        "textures": {
+            "up": "hellfire_block",
+            "down": "hellfire_block",
+            "north": "hellfire_block",
+            "south": "hellfire_block",
+            "east": "hellfire_block",
+            "west": "hellfire_block"
+        },
+        "isotropic": false,
+        "sound": "metal"
+    },
+    "teufel:terminite_block": {
+        "textures": {
+            "up": "terminite_block",
+            "down": "terminite_block",
+            "north": "terminite_block",
+            "south": "terminite_block",
+            "east": "terminite_block",
+            "west": "terminite_block"
+        },
+        "isotropic": false,
+        "sound": "metal"
+    },
+    "teufel:sculken_block": {
+        "textures": {
+            "up": "sculken_block",
+            "down": "sculken_block",
+            "north": "sculken_block",
+            "south": "sculken_block",
+            "east": "sculken_block",
+            "west": "sculken_block"
+        },
+        "isotropic": false,
+        "sound": "metal"
+    },
+    "teufel:teufel_block": {
+        "textures": {
+            "up": "teufel_block",
+            "down": "teufel_block",
+            "north": "teufel_block",
+            "south": "teufel_block",
+            "east": "teufel_block",
+            "west": "teufel_block"
+        },
+        "isotropic": false,
+        "sound": "metal"
+    }
+}
